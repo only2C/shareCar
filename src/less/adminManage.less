@@ -1,0 +1,326 @@
+
+@import "common";
+.top{
+  height: 50px;
+  width: 100%;
+  background: #00C6D7;
+  color: #fff;
+  position: absolute;
+  margin-left: -230px;
+  .top-title{
+    line-height: 50px;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .top-user{
+    line-height: 50px;
+    span{
+      margin-right: 10px;
+    }
+  }
+}
+.menu{
+  width: 200px;
+  border: solid 1px #ccc;
+  background: #FFF;
+  float: left;
+  height: 100%;
+  position: absolute;
+  margin-left: -231px;
+  margin-top: 49px;
+
+
+  ul{
+    .active{
+      a{
+        color:#00C6D7
+      }
+    }
+    li{
+      cursor: pointer;
+      padding: 15px;
+      /*color: #4D4D4D;*/
+      font-size: 14px;
+      font-weight: 700;
+      width: 100%;
+      border-bottom: 1px solid #CCC;
+      position: relative;
+      span{
+      }
+      a{
+        color:#4D4D4D ;
+      }
+    }
+  }
+}
+
+.table{margin: 0}
+.a-container{
+  padding-top: 55px;
+}
+.a-box{
+  margin:0 20px;
+  padding-left: 210px;
+  h3{
+    color: #f39800;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid;
+    margin-bottom: 10px;
+  }
+}
+
+.b-login{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background:url("../assets/bg.png") repeat-x #b5bada;
+  display: inline-block;
+
+}
+.b-login-box{
+  color: #fff;
+  width:300px;
+  margin: 10% auto  0 auto;
+  h1{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 30px 0;
+  }
+  .row {
+    span{
+      width: 80px;
+      float: left;
+      line-height: 30px;
+    }
+  }
+  .b-login-box-btn{
+    width: 100px;
+    margin: 30px auto;
+  }
+}
+
+
+// 注册
+
+.b-regist-error{
+  color: red;
+  position: absolute;
+  width: 300px;
+  margin-left: 10px;
+}
+
+.b-regist-box-btn{
+  button{
+    margin-left: 15px;
+  }
+  width: 200px;
+  margin: 20px auto;
+}
+
+.b-input{
+  height: 30px;
+  line-height: 30px;
+  border-radius: 4px;
+  border:1px solid #E6E6E6;
+  padding-left:3px;
+  color: #000;
+}
+.b-search{
+  cursor:pointer;
+}
+.input-error {
+  border: 1px solid darkred;
+}
+.react-bs-container-header {
+  overflow: hidden;
+  width: 100%;
+}
+.react-bs-container-body {
+  overflow: auto;
+  width: 100%;
+}
+.react-bs-table table td, .react-bs-table table th {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.react-bs-table table {
+  margin-bottom: 0;
+  table-layout: fixed;
+}
+
+// 上传组件
+.upload {
+ /* width: 100px;
+  border: 1px solid #e6e6e6;
+  background: #fff;*/
+  ul {
+    width: 50%;
+    height: 27px;
+    margin: 50px auto;
+    li {
+      width: 100%;
+      line-height: 27px;
+      text-align: center;
+      .f12;
+      color: #DDDDDD;
+      border: 1px solid #D6D6D6;
+      border-radius: 4px;
+      cursor: pointer;
+      &.active {
+        border-color: #00A995;
+        color: #00A995;
+      }
+    }
+  }
+  .upload-add {
+   /* width: 75%;
+    height:50px;
+    margin: 30px auto;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;*/
+    .upload-bg {
+      width: 80px;
+      height: 80px;
+      display: block;
+      background: url(./images/upload-add.png) no-repeat center;
+      cursor: pointer;
+    }
+  }
+  .upload-complete{
+    width: 75%;
+    margin: 30px auto;
+    .upload-add-list{
+      p{
+        width: 90%;
+        overflow: hidden;
+        height: 30px;
+        line-height: 30px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      span{
+        float: right;
+        margin: -23px 0 0 0;
+        color: red;
+        cursor: pointer;
+      }
+    }
+
+  }
+}
+
+
+.a-operation-box{
+  span{
+    cursor: pointer;
+  }
+}
+
+.a-preview-col {
+  label{
+    margin-right: 5px;
+  }
+  line-height: 40px;
+}
+
+.a-nav-ul{
+  height: 30px;
+  li{
+    line-height: 30px;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+  .active{
+    color:#f39800 ;
+    border-bottom: 2px solid #f39800;
+  }
+}
+.a-total-num{
+  height: 100px;
+  background: #5cb85c;
+  color: #fff;
+  font-size: 20px;
+  padding: 7px 0 0 20px;
+  margin-bottom: 40px;
+
+  h2{
+    border-bottom: 1px solid #fff;
+  }
+  p{
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
+}
+.a-total-money{
+  height: 100px;
+  background: #4CB1CF;
+  color: #fff;
+  font-size: 20px;
+  padding: 7px 0 0 20px;
+  margin-bottom: 40px;
+  h2{
+    border-bottom: 1px solid #fff;
+  }
+  p{
+    font-size: 30px;
+    margin-top: 10px;
+  }
+}
+.a-total-invest {
+  height: 100px;
+  background: #F0433D;
+  color: #fff;
+  font-size: 20px;
+  padding: 7px 0 0 20px;
+  h2 {
+    border-bottom: 1px solid #fff;
+  }
+  p {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+}
+.a-total-cash {
+  height: 100px;
+  background: #f0ad4e;
+  color: #fff;
+  font-size: 20px;
+  padding: 7px 0 0 20px;
+  h2 {
+    border-bottom: 1px solid #fff;
+  }
+  p{
+    font-size: 30px;
+    margin-top: 10px;
+  }
+}
+.react-bootstrap-table-page-btns-ul.pagination{
+  float: right;
+}
+.react-bs-table{
+  table {
+    tr{
+      outline: none;
+      td{
+        outline:none;
+      }
+    }
+  }
+}
+.a-tab-button span{
+  padding: 4px 8px;
+  cursor: pointer;
+  border: 1px solid  #46b8da;
+  user-select: none;
+  color: #fff;
+  background-color: #5bc0de;
+  border-radius: 5px;
+}
